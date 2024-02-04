@@ -1,0 +1,201 @@
+body { 
+    margin: 0; padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.data {
+    transition: visibility 0s, opacity 0.5s ease-out;
+}
+
+.topbar{
+    margin-top: -1.2em;
+    width: 100%;
+    background-color: #e2fcd6;
+    margin-bottom: -1.2em;
+    color: #095d7e;
+    font-size: 1.5em;
+}
+
+.text-topbar{
+    padding: 1.3em;
+}
+
+form {
+    display: inline-grid;
+}
+
+.card-dashboard {
+    box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    width: 60%;
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 55%; */
+    height: 79%;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #095d7e;
+    padding: 0.5em;
+    color: #095d7e;
+    text-transform: none;
+}
+
+.card-body {
+    margin-top: 0.6em;
+    padding: 0.5em;
+}
+
+form.form-dashboard {
+    width: 100%;
+}
+
+a {
+    background-color: #095d7e;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 2em;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
+
+a:hover {
+    background-color: rgb(199, 48, 48);
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 2em;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.php-code {
+    /* font-size: 20px; */
+    color: black;
+}
+
+.box-label {
+    border: 1px solid #095d7e;
+    padding: 5px 10px;
+    padding: 0.6em;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+label {
+    color: #095d7e;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.php-code {
+    text-transform: none;
+}
+
+
+@media(max-width: 360px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+
+@media(max-width: 411px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+
+@media(max-width: 414px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+@media(max-width: 768px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+@media(max-width: 1024px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 85%;
+    }
+}

@@ -1,0 +1,204 @@
+body { 
+    margin: 0; padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+.topbar{
+    margin-top: -1.2em;
+    width: 100%;
+    background-color: #f1f9ff;
+    margin-bottom: -1.2em;
+    color: #095d7e;
+    font-size: 1.5em;
+}
+
+.text-topbar{
+    padding: 1.3em;
+}
+
+form {
+    display: inline-grid;
+}
+
+.card-register {
+    box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+    width: 60%;
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 55%; */
+    height: 85%;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #095d7e;
+    padding: 0.5em;
+    color: #095d7e;
+}
+
+.card-body {
+    margin-top: 0.6em;
+    padding: 0.5em;
+}
+
+form.form-register {
+    width: 100%;
+}
+
+input.form-input {
+    padding: 1em;
+    border-radius: 50px;
+    /* border: none; */
+    border: 1px solid #095d7e;
+}
+
+a {
+    background-color: rgb(207, 207, 207);
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 2em;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0.7em;
+    width: 20%;
+}
+
+a:hover {
+    background-color: #3d3c3c;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 2em;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0.7em;
+}
+
+label {
+    color: #095d7e;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+input.btn.btn-daftar {
+    width: 100%;
+    background-color: #095d7e;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 1em;
+    color: white;
+    font-size: 14px;
+}
+
+input.btn.btn-daftar:hover {
+    width: 100%;
+    background-color: #14967f;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 1em;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+@media(max-width: 360px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+
+@media(max-width: 411px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+
+@media(max-width: 414px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+@media(max-width: 768px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 70%;
+    }
+}
+@media(max-width: 1024px){
+    .card-dashboard {
+        box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -webkit-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        -moz-box-shadow: -3px -7px 31px 13px rgba(0,0,0,0.07);
+        width: 80%;
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 55%; */
+        height: 85%;
+    }
+}
